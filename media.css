@@ -1,0 +1,95 @@
+@media (max-width: 1370px) {
+  .news {
+    font-size: 16px;
+    justify-content: space-evenly;
+    margin: 2px auto;
+  }
+  p {
+    color: #2e475b;
+  }
+  .article__title {
+    font-size: 30px;
+  }
+  .article {
+    margin-top: 15px;
+  }
+  .news__4 {
+    margin: 4px 0px 0px 69px;
+  }
+  .news__5 {
+    margin: 4px 0px;
+  }
+  .team {
+    margin: 85px auto 0 auto;
+  }
+  .line {
+    width: 1000px;
+    margin: 31px auto;
+  }
+  /* Fixed by Sergei S.*/
+  .news__macbook-img {
+    margin: 15px 0 0 0;
+  }
+  /* END Fixed */
+}
+@media (max-width: 1100px) {
+  .article {
+    margin-top: 15px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .article__title {
+    font-size: 35px;
+  }
+  .article__btn {
+    font-size: 10px;
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 750px) {
+  .article__title {
+    font-size: 25px;
+  }
+  .article {
+    margin-top: 15px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .header {
+    padding: 0 15px;
+    justify-content: center;
+  }
+  .header__nav {
+    margin: 0;
+  }
+  .article__btn {
+    font-size: 10px;
+    padding: 15px 25px;
+  }
+}
+@media (max-width: 570px) {
+  .article__title {
+    font-size: 15px;
+  }
+  .article {
+    padding: 0 5px;
+  }
+  .article__desc {
+    font-size: 15px;
+  }
+  .header__img {
+    width: 100%;
+  }
+  .header {
+    text-align: center;
+  }
+
+  .header__menu,
+  .header__social {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+}
